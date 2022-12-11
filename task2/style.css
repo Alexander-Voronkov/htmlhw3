@@ -1,0 +1,140 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body>div
+{
+    text-align: center;
+    width:20%;
+    height:400px;
+    box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.5);
+    border-radius: 6%;
+    margin:20px;
+    transition:all 1s linear;
+    position: absolute;
+    background-color: white;
+}
+
+#enterprise
+{
+    left:5%;
+}
+
+#professional
+{
+    left:26.8%;
+}
+
+#standard
+{
+    right:26.8%;
+}
+
+#basic
+{
+    right:5%;
+}
+
+body>div:hover
+{
+    width:23%;
+    height:430px;
+    z-index: 1;
+}
+
+body>div>div:first-child
+{
+    text-align: center;
+    padding:20px;
+    font-size: 15px;
+}
+
+#enterprise>hr
+{
+    border:1px solid #C73856; 
+    box-shadow: 0px 0px 3px 3px rgba(199,56,86,0.3);    
+}
+
+#professional>hr
+{
+    border:1px solid #D7923C;  
+    box-shadow: 0px 0px 3px 3px rgba(215,146,60,0.3); 
+}
+
+#standard>hr
+{
+    border:1px solid #2B6688;
+    box-shadow: 0px 0px 3px 3px rgba(43,102,136,0.3);
+}
+
+#basic>hr
+{
+    border:1px solid #63BA35;
+    box-shadow: 0px 0px 3px 3px rgba(99,186,53,0.3);
+}
+
+.price
+{
+    text-align: center;
+    font-size:35px;
+    padding:15px;
+}
+
+.permonth
+{
+    color:#DCDBDB;
+    text-align: center;
+}
+
+.description
+{
+    font-weight: bold;
+    text-align: center;
+    font-size:15px;
+    margin-top:20px;
+}
+
+.buybtn
+{
+    border:none;
+    color:white;
+    border-radius: 8%;
+    font-size: 18px;
+    width:110px;
+    height:50px;
+    display:inline-block;
+    margin-top:15%;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.buybtn:hover
+{
+    box-shadow: inset 0px 10px 10px rgba(0,0,0,0.5);
+}
+
+#enterprisebuy
+{
+    background-color: #C73856;
+}
+
+#professionalbuy
+{
+    background-color: #D7923C;
+}
+
+#standardbuy
+{
+    background-color: #2B6688;
+}
+
+#basicbuy
+{
+    background-color: #63BA35;
+}
+
+
